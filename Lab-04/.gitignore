@@ -1,0 +1,54 @@
+# ===== Java compiled files =====
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+replay_pid*
+
+# ===== Packaged files =====
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+cmake-build-*/
+
+# Keep this line if you want to share run configurations (optional)
+# !.idea/runConfigurations/
+
+# ===== Build tools (Maven / Gradle) =====
+target/
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== Other IDEs (in case you switch) =====
+.classpath
+.project
+.settings/
+.vscode/
+nbproject/
+*.swp
+*~
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ===== Misc =====
+*.tmp
+*.bak
+*.orig
