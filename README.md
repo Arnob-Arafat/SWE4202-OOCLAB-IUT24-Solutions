@@ -202,7 +202,7 @@ driven by a scripted command stream and checked against exact expected output.
 > specification only.
 
 ### 11 — TakaLink
-*Standalone · Java 17 · 12 marks · in progress*
+*Standalone · Java 17 · 12 marks ·*
 
 A mobile-money switch, rebuilt from a contractor "God class" that debited the sender before
 checking the limit, signalled failure with `int` codes, and left `balance`, `pin`, and
@@ -218,7 +218,7 @@ reason, and settles the rest of the batch.
 run in progress.*
 
 ### 12 — Dokan
-*Lab 13 · Java 17 · Gradle · 10 marks · in progress*
+*Lab 13 · Java 17 · Gradle · 10 marks ·*
 
 A generic toolkit for a corner shop, replacing an intern's three near-identical `Object`-based
 shelves. Six types, one idea each: `Box<T>` (a value or nothing, so `null` stops being an
